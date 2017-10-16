@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.bg-img{
+    background-image: url('../PadHubHome.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    border-style:none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.boxStuff{
+    width: 80%;
+    background-color: black;
+    opacity: .8;
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.title{
+    width: 100%;
+    color: #ffffff;
+    font-size: Poppins; 
+    font-size: 52px;
+    text-align: center;
+}
+
+.info{
+    color: #ffffff;
+    font-size: 'open sans';
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.video{
+    margin-top: 60px;
+}
+
+.signUp{
+    width: 100%;
+    height: 700px;
+    background-color: #5ec0a2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox{
+    margin-top: 30px;
+    width: 80%;
+    height: 200px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 20px;
+}
