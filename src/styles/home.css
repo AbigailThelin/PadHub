@@ -35,14 +35,14 @@
 .title{
     width: 100%;
     color: #ffffff;
-    font-size: Poppins; 
+    font-family: "Open Sans"; 
     font-size: 52px;
     text-align: center;
 }
 
 .info{
     color: #ffffff;
-    font-size: 'open sans';
+    font-family: "Open Sans";
     font-size: 16px;
     text-align: center;
     line-height: 24px;
@@ -55,6 +55,38 @@
     margin-top: 60px;
 }
 
+.ClickHere{
+    width: 80%;
+    background-color: black;
+    opacity: .8;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+}
+
+.clickable{
+    font-family: "Open Sans";
+    color: #1e6bb8;
+    align-self: center;
+}
+
+.clickableInfo{
+    align-self: center;
+    width: 35%;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.clickable:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .signUp{
     width: 100%;
     height: 700px;
@@ -64,9 +96,16 @@
     justify-content: center;
 }
 
+.titleInput{
+    color: white;
+    font-family: "Open Sans";
+    align-self: center;
+    font-size: 1.5em;
+}
+
 .inputBox{
     margin-top: 30px;
-    width: 80%;
+    width: 40%;
     height: 200px;
     border: 1px solid grey;
     display: flex;
@@ -75,6 +114,12 @@
 
 .input{
     margin-top: 30px;
-    width: 60%;
+    width: 70%;
     margin-left: 20px;
+    background-color: white;
+    height: 30px;
+}
+
+.input:focus{
+    border: 1px solid #555;
 }
